@@ -1,9 +1,5 @@
-//import JAVA.MyClass;
-
 public class Feb9 {
     public static void main(String[] arg){
-        //MyClass obj1 = new MyClass();
-        //obj1.display();
 
         Calculator obj2 = new Calculator();
         int a = obj2.add(12,13);
@@ -59,3 +55,5 @@ class CurrentAccount extends BankAccount{
         return (3.0);
     }
 }
+
+
