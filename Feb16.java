@@ -40,5 +40,16 @@ public class Feb16 {
         fruits.remove("Banana");
         System.out.println("after removing banana :- "+fruits);
 
+
+        Vector<Integer> nums = new Vector<>();
+
+        nums.add(100);
+        nums.add(200);
+        nums.add(300);
+
+        System.out.println("Vector :- "+nums);
+        nums.remove(1);
+        
+
     }
 }
