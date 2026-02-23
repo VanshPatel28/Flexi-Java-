@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Feb23 {
     public static void main(String args[]){
         try{
@@ -25,3 +27,16 @@ public class Feb23 {
         System.out.println("Program continues after nested try-catch blocks.");
     }
 }
+
+class Exception{
+    public void fun()
+    {
+        try {
+            throw new NullPointerException("demo");
+        }catch (NullPointerException e) {
+            System.out.println("Caught inside fun().");
+            throw e; //rethrowing the exception
+        }
+    }
+}
+
